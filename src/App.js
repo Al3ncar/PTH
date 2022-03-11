@@ -20,7 +20,8 @@ export default class App extends React.Component{
       {Name:`Garfield`, Raça:`Persa`,idade:`9 anos`,image:<img src={garfield}/>},
       {Name:`Gato Guerreiro`, Raça:`Siberiano`,idade:`12 anos`,image:<img src={gatoG}/>},
       {Name:`Frajola`, Raça:`Shorthair`,idade:`10`,image:<img src={frajola}/>}
-    ]
+    ],
+    list:""
   }
   dog = () =>{
     let {dogs} = this.state
@@ -66,20 +67,19 @@ export default class App extends React.Component{
           </div>
           <div className="adote-container">
             <h2>Salve seu amigo</h2>
-            <div className="btn-container">
+           
+            <div className="text-adote">
+              <p>
+                A Organização Mundial da Saúde estima que só no Brasil existam mais de 30 milhões de animais abandonados, entre 10 milhões de gatos e 20 milhões de cães. Em cidades de grande porte, para cada cinco habitantes há um cachorro. 
+              </p>
+            </div>
+
+          </div>
+           <div className="btn-container">
               <button className="btn-pets" value={dog} onClick={this.dog}>Dog</button>
               <button className="btn-pets" value={cat} onClick={this.cat}>Cat</button>
               <button className="btn-pets" onClick={this.clear}>C</button>
             </div>
-            <div className="text-adote">
-              <p>
-                A Organização Mundial da Saúde estima que só no Brasil existam mais de 30 milhões de animais abandonados, entre 10 milhões de gatos e 20 milhões de cães. Em cidades de grande porte, para cada cinco habitantes há um cachorro. Destes, 10% estão abandonados.
-                Segundo a Ampara Animal, durante a pandemia da Covid-19, o número aumentou 61% entre junho de 2020 e março de 2021.
-              </p>
-  
-            </div>
-
-          </div>
         </section>
         <h2>{this.state.list}</h2>
       </main>
