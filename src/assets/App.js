@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/App.css"
 
 import LogPec from "./pictures/logPec.png"
+import Dog from "./pictures/dog_bc.png"
 
 import {dog} from "../data/dog/dogs"
 import {cat} from "../data/cat/cats"
@@ -42,17 +43,17 @@ export default class App extends React.Component{
     return(
       <>
         <header>
-          <section>
-            <section>
-              <div>
-                <nav>
+          <section className="header_t_full">
+            <section className="nav">
+              <div className="nav_top">
+                <nav className="nav_top_first">
                   <ul>
                     <li> CATEGORIA </li>
                     <li> PETS </li>
                   </ul>
                 </nav>
-                <h1> <img src={LogPec} alt=""/> </h1>
-                <nav>
+                <h1> <img className="log_PEC" src={LogPec} alt=""/> </h1>
+                <nav className="nav_bottom">
                   <ul>
                     <li> SOBRE </li>
                     <li> DUVIDAS </li>
@@ -60,19 +61,40 @@ export default class App extends React.Component{
                 </nav>
               </div>
             </section>
-            <section>
-              <div>
-                <div>
-                  <p> A Organização Mundial da Saúde estima que só no Brasil existam mais de 30 milhões de animais abandonados. </p>
+
+            <section className="header_full">
+              <div className="header_left">
+
+                <div className="cont_parg_left">
+                  <p> 
+                   A ORGANIZAÇÃO MUNDIAL DA SAÚDE ESTIMA QUE SÓ NO BRASIL EXISTAM MAIS DE 30 MILHÕES DE ANIMAIS ABANDONADOS.
+                  </p>
                 </div>
-                <div>
+
+                <div className="btn_header_left">
                   <button> SAIBA MAIS </button>
                 </div>
+
               </div>
-              <div>
-                <p> entre 10 milhões de gatos e 20 milhões de cães. Em cidades de grande porte, para cada cinco habitantes há um cachorro.  </p>
-              </div>
+             
+              <div className="header_right">
+
+                <div className="cont_parg_right">
+                  <p>
+                    ENTRE 10 MILHÕES DE GATOS E 20 MILHÕES DE CÃES. EM CIDADES DE GRANDE PORTE, PARA CADA CINCO HABITANTES HÁ UM CACHORRO.
+                  </p>
+                </div>
+
+                <div className="box_dog"> 
+                  <img src={Dog} alt="Cachorro Imagem"/> 
+                </div>
+
+              </div> 
+
+              
+
             </section>
+
           </section>
         </header>
       </>
