@@ -71,16 +71,15 @@ export default class App extends React.Component{
                    A ORGANIZAÇÃO MUNDIAL DA SAÚDE ESTIMA QUE SÓ NO BRASIL EXISTAM MAIS DE 30 MILHÕES DE ANIMAIS ABANDONADOS.
                   </p>
                 </div>
-                
+                <div className="btn_header_left">
+                  <button> SAIBA MAIS </button>
+                </div>
               </div>
               <div className="header_right">
                 <div className="cont_parg_right">
                   <p>
                     ENTRE 10 MILHÕES DE GATOS E 20 MILHÕES DE CÃES. EM CIDADES DE GRANDE PORTE, PARA CADA CINCO HABITANTES HÁ UM CACHORRO.
                   </p>
-                </div>
-                <div className="btn_header_left">
-                  <button> SAIBA MAIS </button>
                 </div>
                 <div className="box_dog"> 
                   <img src={Dog} alt="Cachorro Imagem"/> 
@@ -99,6 +98,7 @@ export default class App extends React.Component{
               <div className="box_Dogs">
                 <img className="Dogs" src={DogsBc} alt="cachorros juntos"/>
               </div>
+  
             </section>
 
             <section className="cont_sobre">
