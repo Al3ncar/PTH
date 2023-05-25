@@ -2,10 +2,13 @@ import React from "react";
 import "../assets/App.css"
 
 import LogPec from "./pictures/logPec.png"
+import LogP from "./pictures/logP.png"
 import Dog from "./pictures/dog_bc.png"
+import DogsBc from "./pictures/dogs.png"
 
 import {dog} from "../data/dog/dogs"
 import {cat} from "../data/cat/cats"
+
 
 export default class App extends React.Component{
   state = {
@@ -61,42 +64,51 @@ export default class App extends React.Component{
                 </nav>
               </div>
             </section>
-
             <section className="header_full">
               <div className="header_left">
-
                 <div className="cont_parg_left">
                   <p> 
                    A ORGANIZAÇÃO MUNDIAL DA SAÚDE ESTIMA QUE SÓ NO BRASIL EXISTAM MAIS DE 30 MILHÕES DE ANIMAIS ABANDONADOS.
                   </p>
                 </div>
-
                 <div className="btn_header_left">
                   <button> SAIBA MAIS </button>
                 </div>
-
               </div>
-             
               <div className="header_right">
-
                 <div className="cont_parg_right">
                   <p>
                     ENTRE 10 MILHÕES DE GATOS E 20 MILHÕES DE CÃES. EM CIDADES DE GRANDE PORTE, PARA CADA CINCO HABITANTES HÁ UM CACHORRO.
                   </p>
                 </div>
-
                 <div className="box_dog"> 
                   <img src={Dog} alt="Cachorro Imagem"/> 
                 </div>
-
               </div> 
-
-              
-
             </section>
-
           </section>
         </header>
+        <main>
+          <section>
+
+            <section>
+              <div>
+                <img src={LogP} alt="Logo, apenas um P"/>
+              </div>
+              <div>
+                <img src={DogsBc} alt="cachorros juntos"/>
+              </div>
+            </section>
+            <section>
+              <div> <h2> SOBRE </h2> </div>
+              <div>
+                <p>
+                  Pet em casa é uma ong, onde visa o bem estar dos animais em condições de ruas, para depois leva-los para doação. Tambem é uma plataforma de doação para animais em condições de rua. Nos ajude nesse projeto!!!
+                </p>
+              </div>
+            </section>
+          </section>
+        </main>
       </>
     )
   }
