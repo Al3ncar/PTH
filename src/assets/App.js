@@ -95,8 +95,8 @@ export default class App extends React.Component{
               <div className="box_LogP">
                 <img src={LogP} alt="Logo, apenas um P"/>
               </div>
-              <div>
-                <img src={DogsBc} alt="cachorros juntos"/>
+              <div className="box_Dogs">
+                <img className="Dogs" src={DogsBc} alt="cachorros juntos"/>
               </div>
             </section>
 
