@@ -118,34 +118,33 @@ h1{ width: 18%; margin: 0 2%;}
 /* ---- Main ---- */
 
 .cont_Main{
-  width: 100%;
-  height: 49.4vw;
+  width: 100%; height: 49.4vw;
   position: relative;
   display: flex;
   flex-direction: column;
 }
-/* .cont_Main::before{
+.cont_Main::before{
   content: "";
-  width: 2%; height: 80%;
+  width: 1.5%; height: 75%;
 
   background-color: #E3C095;
-  position: relative;
-  left: 91.5%; top:0%;
+  position: absolute;
+  right: 11%; top:0%;
   z-index: 3;
 }
 
 .cont_Main::after{
   content: "";
-  width: 4%; height: 4%;
+  width: 2%; height: 4%;
   border-radius: 50%;
   background-color: #E3C095;
-  position: relative;
-  right: 6.9%; top:83%;
-  z-index: 3;
-} */
+  position: absolute;
+  right: 10.8%; top:80%;
+}
 
 .cont_box{
-  width: 100%; 
+  width: 100%;   margin-top: 2%;
+ 
   border-radius: 1vw 1vw 0 1vw;
   
   display: flex;
@@ -154,8 +153,10 @@ h1{ width: 18%; margin: 0 2%;}
 }
 .box_LogP{
   width: 50%; height: 100%; 
-  padding: 8% 0; margin-left: 5%;
+  padding: 8% 0; margin-left: 13%;
   border-radius: 2vw 2vw 0 0;
+
+  box-shadow: -2vw 2vw 0px 0vw #E3C095;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,7 +165,7 @@ h1{ width: 18%; margin: 0 2%;}
 .box_LogP > img{width: 50%;}
 
 .tilt_sobre{
-  width: 90%; padding: 2% 14% 2% 0;
+  width: 81%; padding: 2% 5% 2% 0;
   border: 1vw solid #E3C095;
   border-right: none ;
   border-left: none ;
@@ -173,8 +174,8 @@ h1{ width: 18%; margin: 0 2%;}
   color: #E3C095;
 }
 .cont_Pargs{
-  width: 76%; height: 34%;
-  padding:5% 0;
+  width: 74%; height: 34%;
+  padding:3% 0;
   text-align: end;
   display: flex;
   align-items: end;
@@ -182,14 +183,12 @@ h1{ width: 18%; margin: 0 2%;}
 }
 
 .cont_sobre{
-  width: 90%; margin-left: 5%;
+  width: 82%; margin-left: 13%;
   border-radius: 2.5vw 0 0 0;
-  display: flex;
-  justify-content: end;
 }
 
 .parg_sobre_first{
-  width: 60%;
+  width: 75%;
   font-size: 2vw;
   color: #0D5391;
 }
@@ -202,16 +201,18 @@ h1{ width: 18%; margin: 0 2%;}
 .Dogs{ width: 100%; }
 
 .parg_sobre_second{
-  width: 95%; padding: 5%;
-  border-radius: 0 1vw 1vw 0;
-  box-shadow: 2vw 1.5vw 0px #E3C095;
+  width: 97%; padding: 4%;
+  border-radius: 0 1vw 1vw 1vw;
+  box-shadow: -2vw 2vw 0px 0vw #E3C095;
   display: flex;
-  align-items: end;
+  justify-content: flex-end;
   font-size: 2vw;
   background-color: #0D5391;
   color: #E3C095;
   z-index: 1;
 }
-.parg_sobre_second > p{
-  width: 100%;
+.parg_sobre_s{
+  width: 45%;
+  text-align: end;
+  padding-right: 6%;
 }

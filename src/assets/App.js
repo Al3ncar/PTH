@@ -114,7 +114,7 @@ export default class App extends React.Component{
               </div>
 
               <div className="parg_sobre_second">
-                <p>
+                <p className="parg_sobre_s">
                   Tambem é uma plataforma de doação para animais em condições de rua. Nos ajude nesse projeto!!!
                 </p>
               </div>
