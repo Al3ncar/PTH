@@ -100,12 +100,14 @@ export default class App extends React.Component{
               </div>
             </section>
 
-            <section>
-              <div></div>
-              <div> <h2> SOBRE </h2> </div>
-              <div>
-                <p>
-                  Pet em casa é uma ong, onde visa o bem estar dos animais em condições de ruas, para depois leva-los para doação. Tambem é uma plataforma de doação para animais em condições de rua. Nos ajude nesse projeto!!!
+            <section className="cont_sobre">
+              <div className="tilt_sobre"> <h2> SOBRE </h2> </div>
+              <div className="cont_Pargs">
+                <p className="parg_sobre_first">
+                  Pet em casa é uma ong, onde visa o bem estar dos animais em condições de ruas, para depois leva-los para doação. 
+                </p>
+                <p className="parg_sobre_second">
+                  Tambem é uma plataforma de doação para animais em condições de rua. Nos ajude nesse projeto!!!
                 </p>
               </div>
             </section>
