@@ -92,25 +92,33 @@ export default class App extends React.Component{
           <section className="cont_Main">
 
             <section className="cont_box">
+
               <div className="box_LogP">
                 <img src={LogP} alt="Logo, apenas um P"/>
               </div>
-              <div className="box_Dogs">
-                <img className="Dogs" src={DogsBc} alt="cachorros juntos"/>
+
+              <div>
+                <div className="tilt_sobre"> <h2> SOBRE </h2> </div>
+                <div className="cont_Pargs">
+                  <p className="parg_sobre_first">
+                    Pet em casa é uma ong, onde visa o bem estar dos animais em condições de ruas, para depois leva-los para doação.
+                  </p>
+                </div>
               </div>
-  
             </section>
 
             <section className="cont_sobre">
-              <div className="tilt_sobre"> <h2> SOBRE </h2> </div>
-              <div className="cont_Pargs">
-                <p className="parg_sobre_first">
-                  Pet em casa é uma ong, onde visa o bem estar dos animais em condições de ruas, para depois leva-los para doação. 
-                </p>
-                <p className="parg_sobre_second">
+
+              <div className="box_Dogs">
+                <img className="Dogs" src={DogsBc} alt="cachorros juntos"/>
+              </div>
+
+              <div className="parg_sobre_second">
+                <p>
                   Tambem é uma plataforma de doação para animais em condições de rua. Nos ajude nesse projeto!!!
                 </p>
               </div>
+
             </section>
 
           </section>
