@@ -121,10 +121,17 @@ h1{ width: 18%; margin: 0 2%;}
 }
 
 .cont_box{
-  width: 30%; margin: 0 10%;
+  width: 35%; margin: 0 10% 0 5%;
   display: flex;
-  justify-content: center;
+  justify-content:space-around;
   align-items: center;
   flex-direction: column;
   background-color: #0D5391;
 }
+
+.box_LogP{
+  width: 50%;
+  background-color: purple;
+}
+
+.box_LogP > img{width: 100%;}
