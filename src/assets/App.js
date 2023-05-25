@@ -89,17 +89,19 @@ export default class App extends React.Component{
           </section>
         </header>
         <main>
-          <section>
+          <section className="cont_Main">
 
-            <section>
-              <div>
+            <section className="cont_box">
+              <div className="box_LogP">
                 <img src={LogP} alt="Logo, apenas um P"/>
               </div>
               <div>
                 <img src={DogsBc} alt="cachorros juntos"/>
               </div>
             </section>
+
             <section>
+              <div></div>
               <div> <h2> SOBRE </h2> </div>
               <div>
                 <p>
@@ -107,6 +109,7 @@ export default class App extends React.Component{
                 </p>
               </div>
             </section>
+
           </section>
         </main>
       </>
