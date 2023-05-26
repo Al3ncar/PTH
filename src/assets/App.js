@@ -5,6 +5,8 @@ import LogPec from "./pictures/logPec.png"
 import LogP from "./pictures/logP.png"
 import Dog from "./pictures/dog_bc.png"
 import DogsBc from "./pictures/dogs.png"
+import DCard from "./pictures/dog_card.png"
+import CCard from "./pictures/cat_card.png"
 
 import {dog} from "../data/dog/dogs"
 import {cat} from "../data/cat/cats"
@@ -106,21 +108,38 @@ export default class App extends React.Component{
                 </div>
               </div>
             </section>
-
             <section className="cont_sobre">
-
               <div className="box_Dogs">
                 <img className="Dogs" src={DogsBc} alt="cachorros juntos"/>
               </div>
-
               <div className="parg_sobre_second">
                 <p className="parg_sobre_s">
                   Tambem é uma plataforma de doação para animais em condições de rua. Nos ajude nesse projeto!!!
                 </p>
               </div>
-
             </section>
           </section>
+
+          <section className="cont_main_pets">
+
+            <section className="card_pet_dog">
+              <button onClick={this.dog} className="btn_pet_dog"> 
+                <div className="box_pet_dog"> <img className="img_pet" src={DCard} alt="" /> </div>
+                <div> <p> CACHORROS </p> </div>
+              </button>
+            </section>
+
+            <section> <h2> PETS </h2> </section>
+
+            <section className="card_pet_cat">
+              <button onClick={this.cat} className="btn_pet_cat"> 
+                <div className="box_pet_cat"> <img className="img_pet" src={CCard} alt="" /> </div>
+                <div> <p> GATOS </p> </div>
+              </button>
+            </section>
+            
+          </section>
+          
         </main>
       </>
     )
