@@ -129,7 +129,7 @@ export default class App extends React.Component{
               </button>
             </section>
 
-            <section className="pets_card"> <h2> PETS </h2> </section>
+            <section className="pets_card"> <h2 className="pets_titl"> PETS </h2> </section>
 
             <section className="card_pet_cat">
               <button onClick={this.cat} className="btn_pet_cat"> 
