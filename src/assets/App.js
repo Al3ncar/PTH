@@ -7,6 +7,7 @@ import Dog from "./pictures/dog_bc.png"
 import DogsBc from "./pictures/dogs.png"
 import DCard from "./pictures/dog_card.png"
 import CCard from "./pictures/cat_card.png"
+import DDoubts from "./pictures/dog_dv.jpeg"
 
 import {dog} from "../data/dog/dogs"
 import {cat} from "../data/cat/cats"
@@ -141,7 +142,7 @@ export default class App extends React.Component{
           <section className="doubts_cont">
           <div>
             <h2>Dúvidas Frequentes</h2>
-            <img src="" alt="" />
+            <img src={DDoubts} alt="Cachorro de Rua"/>
           </div>
           </section>
         </main>
