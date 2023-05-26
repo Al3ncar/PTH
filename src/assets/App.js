@@ -137,9 +137,10 @@ export default class App extends React.Component{
                 <div> <p> GATOS </p> </div>
               </button>
             </section>
-            
           </section>
-          
+          <section>
+            <h1>OOI</h1>
+          </section>
         </main>
       </>
     )
