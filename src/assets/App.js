@@ -140,7 +140,6 @@ export default class App extends React.Component{
           </section>
           <section className="doubts_cont">
           <div>
-            <h2>Dúvidas Frequentes</h2>
             <img src="" alt="" />
           </div>
           </section>
