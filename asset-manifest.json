@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Adote_amig/static/css/main.9ca36452.css",
+    "main.js": "/Adote_amig/static/js/main.6a2c2c0c.js",
+    "static/media/dog_bc.png": "/Adote_amig/static/media/dog_bc.9eccff07cecb58fd7514.png",
+    "static/media/dogs.png": "/Adote_amig/static/media/dogs.240281dcdd1ec906edb6.png",
+    "static/media/dog_Amb.png": "/Adote_amig/static/media/dog_Amb.847ccbbb60e5da0b9634.png",
+    "static/media/catBu.png": "/Adote_amig/static/media/catBu.1af9927a2d96960427fa.png",
+    "static/media/catB.png": "/Adote_amig/static/media/catB.eef321a7f7a170de70b1.png",
+    "static/media/dog_ale.png": "/Adote_amig/static/media/dog_ale.002a930cdc5338052df4.png",
+    "static/media/dog_bet.png": "/Adote_amig/static/media/dog_bet.fc3bfde1c0222c11244a.png",
+    "static/media/dog-ama.png": "/Adote_amig/static/media/dog-ama.f08c8f8d4d7048fcf4bb.png",
+    "static/media/catJa.png": "/Adote_amig/static/media/catJa.2950378aa13eef06b0e9.png",
+    "static/media/catJ.png": "/Adote_amig/static/media/catJ.cd201a4ef215e9960bb5.png",
+    "static/media/dog_bar.png": "/Adote_amig/static/media/dog_bar.cf72547b6f86506f4911.png",
+    "static/media/cat_card.png": "/Adote_amig/static/media/cat_card.508c359952d89b1f92a7.png",
+    "static/media/dog_card.png": "/Adote_amig/static/media/dog_card.3eb4a11c725b277f0fe4.png",
+    "static/media/catG.png": "/Adote_amig/static/media/catG.02a459db21b44338a9df.png",
+    "static/media/logPec.png": "/Adote_amig/static/media/logPec.20097a826bdb3bf99df2.png",
+    "static/media/logP.png": "/Adote_amig/static/media/logP.4bc8941a411ed2f85a6c.png",
+    "index.html": "/Adote_amig/index.html",
+    "main.9ca36452.css.map": "/Adote_amig/static/css/main.9ca36452.css.map",
+    "main.6a2c2c0c.js.map": "/Adote_amig/static/js/main.6a2c2c0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ca36452.css",
+    "static/js/main.6a2c2c0c.js"
+  ]
+}
