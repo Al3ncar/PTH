@@ -198,6 +198,15 @@ export default class App extends React.Component{
             </div>
           </section>
         </main>
+        <footer>
+          <section className="contFooter">
+            <div className="contBoxFooter">
+              <div className="LogFooter">
+                <img className="log_PEC" src={LogPec} alt=""/>
+              </div>
+            </div>
+          </section>
+        </footer>
       </>
     )
   }
