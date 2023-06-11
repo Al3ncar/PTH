@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/Adote_amig/static/css/main.9ca36452.css",
-    "main.js": "/Adote_amig/static/js/main.6a2c2c0c.js",
+    "main.css": "/Adote_amig/static/css/main.c2e4cdd3.css",
+    "main.js": "/Adote_amig/static/js/main.1b7829da.js",
+    "static/media/df2.png": "/Adote_amig/static/media/df2.7892255212628fa4a776.png",
+    "static/media/df.png": "/Adote_amig/static/media/df.8d5b9b8c3aa560e30ae5.png",
     "static/media/dog_bc.png": "/Adote_amig/static/media/dog_bc.9eccff07cecb58fd7514.png",
+    "static/media/df3.png": "/Adote_amig/static/media/df3.883eff8b13f93659fb91.png",
     "static/media/dogs.png": "/Adote_amig/static/media/dogs.240281dcdd1ec906edb6.png",
     "static/media/dog_Amb.png": "/Adote_amig/static/media/dog_Amb.847ccbbb60e5da0b9634.png",
     "static/media/catBu.png": "/Adote_amig/static/media/catBu.1af9927a2d96960427fa.png",
@@ -16,14 +19,15 @@
     "static/media/cat_card.png": "/Adote_amig/static/media/cat_card.508c359952d89b1f92a7.png",
     "static/media/dog_card.png": "/Adote_amig/static/media/dog_card.3eb4a11c725b277f0fe4.png",
     "static/media/catG.png": "/Adote_amig/static/media/catG.02a459db21b44338a9df.png",
+    "static/media/df4.png": "/Adote_amig/static/media/df4.0614da7bf4ab58491e0d.png",
     "static/media/logPec.png": "/Adote_amig/static/media/logPec.20097a826bdb3bf99df2.png",
     "static/media/logP.png": "/Adote_amig/static/media/logP.4bc8941a411ed2f85a6c.png",
     "index.html": "/Adote_amig/index.html",
-    "main.9ca36452.css.map": "/Adote_amig/static/css/main.9ca36452.css.map",
-    "main.6a2c2c0c.js.map": "/Adote_amig/static/js/main.6a2c2c0c.js.map"
+    "main.c2e4cdd3.css.map": "/Adote_amig/static/css/main.c2e4cdd3.css.map",
+    "main.1b7829da.js.map": "/Adote_amig/static/js/main.1b7829da.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ca36452.css",
-    "static/js/main.6a2c2c0c.js"
+    "static/css/main.c2e4cdd3.css",
+    "static/js/main.1b7829da.js"
   ]
 }
