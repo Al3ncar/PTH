@@ -1,6 +1,8 @@
 import React from "react"; 
 import "../assets/App.css"
 
+import NukaSlid from "nuka-carousel"
+
 import LogPec from "./pictures/logPec.png"
 import LogP from "./pictures/logP.png"
 import Dog from "./pictures/dog_bc.png"
@@ -11,38 +13,64 @@ import CCard from "./pictures/cat_card.png"
 import {dog} from "../data/dog/dogs"
 import {cat} from "../data/cat/cats"
 
+const setting = {
+  wrapAround: true,
+  dragging: true,
+  slidesToShow: 4,
+  cellAlign: "center",
+  adaptiveHeight: false,
+  animation: "zoom",
+  autoplay: true,
+  autoplayInterval: 2000,
+}
 
 export default class App extends React.Component{
   state = {
-    dogs: dog,
-    cats: cat,
-    list:""
+    dogs: dog, cats: cat,
+    listDog:"", listCat:"",
+    btnDog:false, btnCat:false,
   }
+
   dog = () =>{
     let {dogs} = this.state
-    this.setState ({list: dogs.map((item) =>(
-      <div key={item.key}>
-        <h1>{item.name}</h1>
-        <p>{item.size}</p>
-        <p>{item.yearsOld}</p>
-        <img src={item.img} alt="cachorros"/>
-      </div>
-    ))})
+    this.setState({ btnDog: true})
+    this.setState ({ listDog: dogs.map(item => (
+        <div className="cardPet" key={item.key}>
+          <div className="boxPet"><img src={item.img} alt="Dogs"/></div>
+          <div className="cardInfoPet">
+            <h4>{item.name}</h4>
+            <p>Idade: {item.yearsOld}</p>
+            <p>Porte: {item.size}</p>
+            <a href="https://www.adotepetz.com.br/quero-adotar" target="_blank"><button> SAIBA MAIS </button></a>
+          </div>
+        </div>
+      ))
+    })
   }
+
   cat = () =>{
     let {cats} = this.state
-    this.setState ({list: cats.map((item) =>(
-      <div key={item.key}>
-        <h1>{item.name}</h1>
-        <p>{item.size}</p>
-        <p>{item.yearsOld}</p>
-        <img src={item.img} alt="gatos"/>
+    this.setState({ btnCat: true})
+    this.setState ({ listCat: cats.map(item => (
+      <div className="cardPet" key={item.key}>
+        <div className="boxPet">
+          <img src={item.img} alt="Dogs"/>
+        </div>
+        <div className="cardInfoCat">
+          <h4>{item.name}</h4>
+          <p>Idade: {item.yearsOld}</p>
+          <p>Porte: {item.size}</p>
+          <a href="https://www.adotepetz.com.br/quero-adotar" target="_blank"><button> SAIBA MAIS </button></a>
+        </div>
       </div>
-    ))})
+    ))
+  })
   }
+
   clear = () => {
     this.setState({ list:""})
   }
+
   render(){
     let {cat, dog} = this.state
     return(
@@ -138,10 +166,27 @@ export default class App extends React.Component{
               </button>
             </section>
           </section>
-          <section className="doubts_cont">
-          <div>
-            <img src="" alt="" />
-          </div>
+          <section>
+            <div>
+              {!!this.state.btnDog && (
+                <div className="NukSlid">
+                  <h4>CACHORROS</h4>
+                  <NukaSlid className="nuk"{...setting}>
+                    {this.state.listDog}
+                  </NukaSlid>
+                </div>
+              )}
+            </div>
+            <div>
+              {!!this.state.btnCat && (
+                <div className="NukSlid">
+                  <h4>GATOS</h4>
+                  <NukaSlid className="nuk"{...setting}>
+                    {this.state.listCat}
+                  </NukaSlid>
+                </div>
+              )}
+            </div>
           </section>
         </main>
       </>

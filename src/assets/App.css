@@ -287,3 +287,68 @@ h1{ width: 18%; margin: 0 2%;}
   background-color: white;
   border-radius: 50%;
 }
+
+/* // ---- // */
+
+.NukSlid{margin:0  5%;}
+.NukSlid > h4{font-size: 3vw; padding: 4% 0 1% 0; }
+
+.petTitleCard{
+  font-size:3vw ;
+  padding-bottom: 5%;
+}
+.cardPet{
+  width: 100%;
+  border-radius: 2vw;
+  background-color: #0D5391;
+}
+.boxPet{ width: 100%; }
+.boxPet > img{ width: 100%;  border-radius: 2vw 2vw 0 0;}
+
+.cardInfoPet{
+  margin: 0% 12%;
+  padding: 3% 5%;
+  border-left: solid white 0.5vw;
+  border-right: solid white 0.5vw;
+}
+
+.cardInfoCat{
+  margin: 0% 12%;
+  padding: 3% 5%;
+  border-left: solid white 0.5vw;
+  border-right: solid white 0.5vw;
+}
+
+.cardInfoPet > h4{width: 100%; font-size: 2vw; color: white;}
+.cardInfoCat > h4 {width: 100%; font-size: 2vw; color: white;}
+
+.cardInfoCat > p{font-size: 1.5vw; color: white; padding: 1% 0;}
+.cardInfoPet > p{ font-size: 1.5vw; color: white; padding: 1% 0;}
+
+.cardInfoCat > a{text-decoration: none;}
+.cardInfoPet > a {text-decoration: none;}
+
+.cardInfoCat > a > button{
+  background-color: #E3C095;
+  margin: 5% 0; padding: 2% 5%;
+  font-size: bold;
+  border-radius: 2vw;
+  border: none;
+}
+
+.cardInfoPet > a > button{
+  background-color: #E3C095;
+  margin: 5% 0; padding: 2% 5%;
+  font-size: bold;
+  border-radius: 2vw;
+  border: none;
+}
+.slider-control-centerright > button{
+  display: grid;
+}
+
+.slider-control-centerleft > button{
+  display: grid;
+}
+
+.slider-control-bottomcenter{ display: none;}
