@@ -152,7 +152,9 @@ export default class App extends React.Component{
 
             <section className="card_pet_dog">
               <button onClick={this.dog} className="btn_pet_dog"> 
-                <div className="box_pet_dog"> <img className="img_pet" src={DCard} alt="" /> </div>
+                <div className="box_pet_dog"> 
+                  <img className="img_pet" src={DCard} alt="" /> 
+                </div>
                 <div> <p> CACHORROS </p> </div>
               </button>
             </section>
@@ -161,7 +163,9 @@ export default class App extends React.Component{
 
             <section className="card_pet_cat">
               <button onClick={this.cat} className="btn_pet_cat"> 
-                <div className="box_pet_cat"> <img className="img_pet" src={CCard} alt="" /> </div>
+                <div className="box_pet_cat"> 
+                  <img className="img_pet" src={CCard} alt="" /> 
+                </div>
                 <div> <p> GATOS </p> </div>
               </button>
             </section>
@@ -186,6 +190,11 @@ export default class App extends React.Component{
                   </NukaSlid>
                 </div>
               )}
+            </div>
+            <div className="parcContent">
+              <a href="https://www.adotepetz.com.br" target="_blank">
+                <button> Conheça nossa parceira </button>
+              </a>
             </div>
           </section>
         </main>
