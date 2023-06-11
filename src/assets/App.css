@@ -249,7 +249,7 @@ h1{ width: 18%; margin: 0 2%;}
   align-items: center;
   flex-direction: column;
   opacity: 95%;
-
+  border: none;
 }
 .pets_card{
   width: 10%;
@@ -275,6 +275,7 @@ h1{ width: 18%; margin: 0 2%;}
   align-items: center;
   flex-direction: column;
   opacity: 95%;
+  border: none;
 }
 
 .btn_pet_cat:hover, .btn_pet_dog:hover{
