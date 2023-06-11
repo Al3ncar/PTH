@@ -10,6 +10,11 @@ import DogsBc from "./pictures/dogs.png"
 import DCard from "./pictures/dog_card.png"
 import CCard from "./pictures/cat_card.png"
 
+import Df from "./pictures/df.png"
+import Df2 from "./pictures/df2.png"
+import Df3 from "./pictures/df3.png"
+import Df4 from "./pictures/df4.png"
+
 import {dog} from "../data/dog/dogs"
 import {cat} from "../data/cat/cats"
 
@@ -52,7 +57,7 @@ export default class App extends React.Component{
     let {cats} = this.state
     this.setState({ btnCat: true})
     this.setState ({ listCat: cats.map(item => (
-      <div className="cardPet" key={item.key}>
+      <div className="cardPet2" key={item.key}>
         <div className="boxPet">
           <img src={item.img} alt="Dogs"/>
         </div>
@@ -197,12 +202,66 @@ export default class App extends React.Component{
               </a>
             </div>
           </section>
+          <section className="containerDuvid">
+            <section>
+              <div className="titleDuv">
+                <h2> Duvidas Frequentes </h2>
+              </div>
+
+              <div className="cardPetD2">
+                <div className="boxPetD">
+                  <img src={Df} alt="Dog adoção" />
+                </div>
+                <div className="cardInfoPetD2">
+                    <h3> O que é preciso para adotar um pet? </h3>
+                    <div>
+                      <p>
+                        É necessário o preenchimento do formulário de adoção (nas lojas Petz com espaço dedicado à adoção ou formulário online) e aguardar o contato da ONG/protetor parceiro responsável pelo pet para a entrevista. Após aprovação será preciso assinar o contrato de adoção na hora da retirada do pet
+                      </p>
+                    </div>
+                </div>
+              </div>
+              <div className="boxPetDogs">
+                <img src={Df2} alt="2 cachorros fofos" />
+              </div>
+            </section>
+            <section>
+
+            <div className="cardPetD">
+                <div className="boxPetD">
+                  <img src={Df3} alt="Dog adoção" />
+                </div>
+                <div className="cardInfoPetD">
+                    <h3> Tem alguma taxa para a adoção? </h3>
+                    <div>
+                      <p>
+                      Algumas ONGs/protetores solicitam uma colaboração para custear o gasto quetiveram com o animal adotado, a fim de conseguir realizar novos resgates.Esta cobrança fica a critério de cada organização e o valor varia conforme definição decada ONG/protetor parceiro do Programa.
+                      </p>
+                    </div>
+                </div>
+              </div>
+              <div className="cardPetD">
+                <div className="boxPetD">
+                  <img src={Df4} alt="Dog adoção" />
+                </div>
+                <div className="cardInfoPetD">
+                    <h3> Os animais para adoção são animais sociáveis? </h3>
+                    <div>
+                      <p>
+                      Todos os animais passam por uma avaliação, mas cada pet tem a sua particularidade/personalidade. Esses animais são oriundos da rua e podem estar assustados, porém, enquanto estão no espaço do Adote Petz, os pets realizam diversas atividades físicas, passam por técnicas de comportamento, estimulação cognitiva e sensorial (percepção, memória e raciocínio), entre outras atividades.
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </section>
+          </section>
         </main>
+
         <footer>
           <section className="contFooter">
             <div className="contBoxFooter">
               <div className="LogFooter">
-                <img className="log_PEC" src={LogPec} alt=""/>
+                <img className="log_PEC" src={LogPec} alt="Logo pet em casa"/>
               </div>
             </div>
           </section>

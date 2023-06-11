@@ -357,6 +357,11 @@ h1 {
     border-radius: 2vw;
     background-color: #0D5391;
 }
+.cardPet2 {
+    width: 100%;
+    border-radius: 2vw;
+    background-color: #E3C095;
+}
 .boxPet {
     width: 100%;
 }
@@ -387,12 +392,10 @@ h1 {
 .cardInfoCat > h4 {
     width: 100%;
     font-size: 2vw;
-    color: white;
 }
 
 .cardInfoCat > p {
     font-size: 1.5vw;
-    color: white;
     padding: 1% 0;
 }
 .cardInfoPet > p {
@@ -409,12 +412,15 @@ h1 {
 }
 
 .cardInfoCat > a > button {
-    background-color: #E3C095;
+    background-color: #0D5391;
     margin: 5% 0;
     padding: 2% 5%;
     font-size: bold;
     border-radius: 2vw;
     border: none;
+    font-weight: bold;
+    font-size: 1.1vw;
+    color: white;
 }
 
 .cardInfoPet > a > button {
@@ -441,6 +447,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 3% 0 7% 0;
 }
 .parcContent > a {
     width: 18%;
@@ -459,17 +466,135 @@ h1 {
     font-weight: bold;
     color: white;
 }
-.contFooter{
-  width: 100%;
-  display: flex;
-  justify-content: center;
+
+/*  */
+
+.containerDuvid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.contBoxFooter{
-  width: 100%;;
-  display: flex;
-  justify-content: center;
-  position: relative;
+.containerDuvid > section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleDuv {
+    width: 100%;
+    padding: 5% 10% 5% 0;
+    margin-bottom: 10%;
+    font-size: 1.8vw;
+    text-align: right;
+    background-color: #0D5391;
+    color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.titleDuv::before {
+    content: "";
+    width: 80%;
+    position: absolute;
+    top: 85%;
+    left: 0;
+    background-color: #E3C095;
+    padding: 3%;
+    z-index: 1;
+}
+
+.cardPetD2 {
+    width: 70%;
+    margin: 5%;
+    border-radius: 2vw;
+    background-color: #E3C095;
+    margin-left: 5%;
+}
+.cardPetD {
+    width: 70%;
+    margin-bottom: 8%;
+    border-radius: 2vw;
+    background-color: #0D5391;
+    margin-left: 5%;
+}
+
+.boxPetD {
+    width: 100%;
+}
+.boxPetD > img {
+    width: 100%;
+    border-radius: 2vw 2vw 0 0;
+}
+
+.cardInfoPetD {
+    padding: 8%;
+}
+
+.cardInfoPetD2 {
+    padding: 8%;
+}
+
+.cardInfoPetD > h3 {
+    width: 100%;
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
+}
+
+.cardInfoPetD2 > h3 {
+    width: 100%;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.cardInfoPetD2 > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cardInfoPetD2 > div > p {
+    width: 80%;
+    font-size: 1.2vw;
+    padding: 4% 0;
+    text-align: center;
+}
+
+.cardInfoPetD > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cardInfoPetD > div > p {
+    width: 80%;
+    font-size: 1.2vw;
+    color: white;
+    padding: 4% 0;
+    text-align: center;
+}
+
+.boxPetDogs {
+    width: 100%;
+    padding: 10% 0;
+}
+.boxPetDogs > img {
+    width: 100%;
+    border-radius: 2vw 2vw 0 0;
+}
+
+.contFooter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contBoxFooter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .LogFooter {
@@ -477,28 +602,30 @@ h1 {
     z-index: 3;
 }
 
-.contBoxFooter::before{
-  content: "";
-  width: 50%;
-  border-radius: 0 100%  0 0;
-  background-color: #E3C095;
-  position: absolute;
-  top: 55%; left: 0;
-  padding: 5%;
-  z-index: 1;
+.contBoxFooter::before {
+    content: "";
+    width: 50%;
+    border-radius: 0 100% 0 0;
+    background-color: #E3C095;
+    position: absolute;
+    top: 55%;
+    left: 0;
+    padding: 5%;
+    z-index: 1;
 
 }
-.contBoxFooter::after{
-  content: "";
-  width: 60%;
-  border-radius: 100% 0 0 0;
-  background-color: #0D5391;
-  position: absolute;
-  top: 55%; right: 0;
-  padding: 5%;
-  z-index: 1;
+.contBoxFooter::after {
+    content: "";
+    width: 60%;
+    border-radius: 100% 0 0 0;
+    background-color: #0D5391;
+    position: absolute;
+    top: 55%;
+    right: 0;
+    padding: 5%;
+    z-index: 1;
 }
 .LogFooter > img {
-  width: 100%;
-  z-index: 3;
+    width: 100%;
+    z-index: 3;
 }
